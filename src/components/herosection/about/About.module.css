@@ -1,0 +1,102 @@
+.hText {
+    color: #262728;
+    margin-top: 10%;
+    font-size: 63px;
+}
+.section {
+    position: relative;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #585d65;
+    z-index: 12;
+    border-bottom-color: #e0e1e2;
+}
+.content {
+    position: relative;
+    max-width: 820px;
+}
+.titles {
+    position: relative;
+    margin: 0 0 60px 0;
+}
+.title {
+    margin: 0 0 10px 0;
+    max-width: 70%;
+    font-size: 55px;
+    line-height: 1.2;
+    color: #262728;
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #68e0cf;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.about {
+    margin: 0 0 30px 0;
+    font-size: 14px;
+    color: #585858;
+    font-weight: 600;
+}
+.infoList ul {
+    list-style: none;
+    margin: 0 -20px;
+    padding: 0;
+    font-size: 0;
+}
+.infoList ul li {
+    font-size: 13px;
+    letter-spacing: -0.4px;
+    margin: 0 0 6px 0;
+    padding: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-weight: 600;
+}
+.infoList ul li strong {
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #68e0cf;
+}
+
+@media screen and (max-width: 1152px) {
+    .content {
+        max-width: 932px;
+    }
+    .about {
+        font-size: 17px;
+    }
+    .infoList ul li {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 794px) {
+    .infoList ul li {
+        width: 100%;
+    }
+    .title {
+        max-width: 100%;
+    }
+    .titles {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 692px) {
+    .title {
+        font-size: 41px;
+    }
+}
+@media screen and (max-width: 392px) {
+    .infoList ul li {
+        font-size: 13px;
+    }
+}
