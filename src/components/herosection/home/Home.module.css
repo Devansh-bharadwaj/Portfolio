@@ -57,7 +57,7 @@
   max-width: 70%;
   font-size: 55px;
   line-height: 1.2;
-  color: #262728;
+  color: var(--title-color);
   font-weight: 700;
 }
 .subtitle {
@@ -70,7 +70,7 @@
 .hText {
   margin: 0 0 30px 0;
   font-size: 14px;
-  color: #585858;
+  color: var(--paragraph-text-color);
   font-weight: 600;
 }
 .animatedBtn {
@@ -89,7 +89,7 @@
 .contactBtn {
   margin-top: 8px;
   margin-right: 8px;
-  color: #585858;
+  color: var(--paragraph-text-color);
   border: 1px solid #e0e1e2;
   padding: 22px 35px;
   border-radius: 64px;
@@ -117,7 +117,7 @@
   text-align: center;
   margin-right: 15px;
   font-weight: 700;
-  color: #262728;
+  color: var(--paragraph-text-color);
   position: relative;
   overflow: hidden;
   display: inline-block;

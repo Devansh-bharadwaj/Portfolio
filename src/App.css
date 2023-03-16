@@ -23,4 +23,25 @@
   }
 }
 
+.light-theme {
+   --body-background-color: #fff;
+   --header-background-color: #fff;
+   --logo-color: #262728;
+   --title-color: #262728;
+   --paragraph-text-color: #585858;
+   --dark-text-color: #000;
+   --social-color: #262728;
+   --social-background-color: #ffffff;
+}
+.dark-theme {
+  --body-background-color: #0e0e0e;
+  --header-background-color: #484444;
+  --logo-color: black;
+  --title-color: #E5E5CB;
+  --paragraph-text-color: #E5E5CB;
+  --dark-text-color: #E5E5CB;
+  --social-color: #fafafb;
+  --social-background-color: #4f4c4c;
+}
+
 

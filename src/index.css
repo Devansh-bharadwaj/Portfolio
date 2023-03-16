@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--body-background-color);
+  transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
 }
 
 code {

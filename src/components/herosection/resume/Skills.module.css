@@ -22,7 +22,7 @@
     max-width: 70%;
     font-size: 55px;
     line-height: 1.2;
-    color: #262728;
+    color: var(--title-color);
     font-weight: 700;
 }
 .skills ul {
@@ -42,7 +42,7 @@
     margin: 0 0 30px 0;
     position: relative;
     font-size: 18px;
-    color: #262728;
+    color: var(--paragraph-text-color);
     font-weight: 700;
 }
 .singlePostText {
