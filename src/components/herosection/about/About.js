@@ -15,10 +15,7 @@ function About() {
         </div>
         <div className={styles.about}>
           <p>
-            Hi! My name is Devansh. I completed B.Tech in Electrical Engineering
-            from BIET Jhansi. And recently, I completed a 4 months training of
-            React developer from Edyoda Digital University. Now, I am pretty
-            confidant to work with frontend technologies.
+          Hello, I'm Devansh! With a Bachelor's degree in Electrical Engineering from BIET Jhansi and a recent 4-month training in React development from Edyoda Digital University, I'm a confident and skilled frontend web developer. My diverse educational background and training in web development have equipped me with a unique set of skills that I'm eager to apply in the tech industry. I'm passionate about creating dynamic and engaging user interfaces and constantly strive to stay up-to-date with the latest advancements in the field.
           </p>
         </div>
       </div>

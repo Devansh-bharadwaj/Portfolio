@@ -1,12 +1,5 @@
 import Header from "./components/header/Header";
-// import Home from "./components/herosection/home/Home";
-import Footer from "./components/footer/Footer";
 import "./App.css";
-import About from "./components/herosection/about/About";
-import Resume from "./components/herosection/resume/Resume";
-import Portfolio from "./components/herosection/portfolio/Portfolio";
-// import Skills from "./components/herosection/resume/Skills";
-import Contact from "./components/herosection/contact/Contact";
 import React, { Suspense, lazy } from "react";
 import Preloader from "./components/preloader/Preloader";
 
@@ -19,6 +12,7 @@ const AsyncPortfolio = lazy(() => import("./components/herosection/portfolio/Por
 const AsyncAbout = lazy(() => import("./components/herosection/about/About"));
 const AsyncContact = lazy(() => import("./components/herosection/contact/Contact"));
 const AsyncFooter = lazy(() => import("./components/footer/Footer"));
+const AsyncExperience = lazy(() => import("./components/herosection/experience/Experience"));
 
 function App() {
   return (
@@ -29,6 +23,7 @@ function App() {
           <AsyncHome />
           <AsyncSkills />
           <AsyncResume />
+          <AsyncExperience />
           <AsyncPortfolio />
           <AsyncAbout />
           <AsyncContact />

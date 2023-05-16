@@ -40,8 +40,13 @@ function Home() {
             </div>
             <div className={styles.hText}>
               <p>
-                Hello! I am a quick learner of diffrent technologies and have a
-                good knowledge in the field of web development.
+                Hello there! I'm a fast learner with a passion for web
+                development and a solid understanding of various technologies.
+                I'm constantly striving to stay up-to-date with the latest
+                trends and advancements in the field to enhance my skills and
+                knowledge. Whether it's creating intuitive user interfaces or
+                crafting dynamic user experiences, I'm always eager to take on
+                new challenges and push my boundaries.
               </p>
             </div>
             <Link
