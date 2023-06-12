@@ -218,18 +218,21 @@
 }
 
 @media screen and (max-width: 692px) {
-    .title {
-        font-size: 41px;
-    }
+  .title {
+    font-size: 41px;
+  }
+  .contentItem {
+    padding-bottom: 0;
+  }
 }
 @media screen and (max-width: 400px) {
-    .date {
-        left: 3px;
-    }
-    .name {
-        margin: 15px 0px 0px 0px;
-    }
-    .singlePostText {
-        margin-left: 0px;
-    }
+  .date {
+    left: 3px;
+  }
+  .name {
+    margin: 15px 0px 0px 0px;
+  }
+  .singlePostText {
+    margin-left: 0px;
+  }
 }

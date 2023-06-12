@@ -137,15 +137,17 @@
   border: 1px solid #00bf9f;
 }
 .iconDown {
-  -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
 }
 @keyframes mover {
-  0% { transform: translateY(-6px); }
-  100% { transform: translateY(6px); }
+  0% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(6px);
+  }
 }
-
-
 
 @media screen and (max-width: 1152px) {
   .backgroundBg {
@@ -197,6 +199,19 @@
   .backgroundImg img {
     bottom: -32px;
     width: 51%;
+  }
+  .section1 {
+    margin-top: 0;
+  }
+  .hText p {
+    padding: 0 26px;
+    text-align: left;
+  }
+  .titles {
+    margin: 0 0 33px 0;
+  }
+  .section {
+    padding-top: 17px;
   }
 }
 @media screen and (max-width: 692px) {
