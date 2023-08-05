@@ -37,7 +37,7 @@
   height: 812.62px;
 }
 .boxCol {
-  padding: 40px 20px 0 20px;
+  padding: 40px 20px 0 0;
   float: left;
   width: 50%;
 }
