@@ -39,14 +39,16 @@ function Home() {
               </div>
             </div>
             <div className={styles.hText}>
-              <p>
-                Hello there! I'm a fast learner with a passion for web
-                development and a solid understanding of various technologies.
-                I'm constantly striving to stay up-to-date with the latest
-                trends and advancements in the field to enhance my skills and
-                knowledge. Whether it's creating intuitive user interfaces or
-                crafting dynamic user experiences, I'm always eager to take on
-                new challenges and push my boundaries.
+              <p className="text-justify">
+                Highly proficient in web development with strong technical
+                skills and a rapid learning ability in various technologies. Has
+                extensive experience in HTML, CSS, JavaScript, Bootstrap,
+                ReactJS, NextJS, NodeJS, and MongoDB.With a solid foundation in
+                web development, I have honed my skills and become highly
+                proficient in creating user-friendly and visually appealing
+                websites. My expertise lies in writing clean and efficient code,
+                implementing responsive designs, and ensuring cross-browser
+                compatibility.
               </p>
             </div>
             <Link

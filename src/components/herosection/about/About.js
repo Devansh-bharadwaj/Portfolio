@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 
 function About() {
   return (
-    <div className={styles.section}  id='about'>
+    <div className={styles.section} id="about">
       <div className={styles.content}>
         <div className={styles.titles}>
           <h2 className={styles.title}>
@@ -15,7 +15,14 @@ function About() {
         </div>
         <div className={styles.about}>
           <p>
-          Hello, I'm Devansh! With a Bachelor's degree in Electrical Engineering from BIET Jhansi and a recent 4-month training in React development from Edyoda Digital University, I'm a confident and skilled frontend web developer. My diverse educational background and training in web development have equipped me with a unique set of skills that I'm eager to apply in the tech industry. I'm passionate about creating dynamic and engaging user interfaces and constantly strive to stay up-to-date with the latest advancements in the field.
+            Highly proficient in web development with strong technical skills
+            and a rapid learning ability in various technologies. Has extensive
+            experience in HTML, CSS, JavaScript, Bootstrap, ReactJS, NextJS,
+            NodeJS, and MongoDB.With a solid foundation in web development, I
+            have honed my skills and become highly proficient in creating
+            user-friendly and visually appealing websites. My expertise lies in
+            writing clean and efficient code, implementing responsive designs,
+            and ensuring cross-browser compatibility.
           </p>
         </div>
       </div>
