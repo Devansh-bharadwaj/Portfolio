@@ -2,12 +2,12 @@ import React from "react";
 import styles from "./Portfolio.module.css";
 import shoppingzone from "./shoppingzone.png";
 import admindash from "./admindash.png";
-import pharmacy from "./pharmacy.png";
 import cloudnine from "./cloud-nine-rooms.png";
 import propularity from "./propularity.png";
 import { BsLink45Deg } from "react-icons/bs";
 import spacite from "./spacite.png";
 import { Link } from "react-router-dom";
+import dwarka from "./dwarka.png";
 
 function Portfolio() {
   return (
@@ -55,11 +55,14 @@ function Portfolio() {
             <div className={styles.boxCol} id={styles.item2}>
               <div className={styles.boxItem}>
                 <div className={styles.image}>
-                  <a href="https://shoppingzone23.netlify.app" target="_blank">
+                  <a
+                    href="https://www.dwarkaexpresswayprojects.in/"
+                    target="_blank"
+                  >
                     <img
                       decoding="async"
-                      src={shoppingzone}
-                      alt="shoppingzone"
+                      src={dwarka}
+                      alt="dwarka expressway"
                     />
                     <span className={styles.info}>
                       <span className={styles.centralize}>
@@ -73,6 +76,36 @@ function Portfolio() {
                 <div className={styles.desc}>
                   <div className={styles.category}>Web development</div>
                   <a
+                    href="https://www.dwarkaexpresswayprojects.in/"
+                    className={styles.name}
+                    target="_blank"
+                  >
+                    Real-Estate website
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* <div className={styles.boxCol} id={styles.item2}>
+              <div className={styles.boxItem}>
+                <div className={styles.image}>
+                  <Link to="https://shoppingzone23.netlify.app" target="_blank">
+                    <img
+                      decoding="async"
+                      src={shoppingzone}
+                      alt="shoppingzone"
+                    />
+                    <span className={styles.info}>
+                      <span className={styles.centralize}>
+                        <span className={styles.verticalCenter}>
+                          <BsLink45Deg className={styles.icon} />
+                        </span>
+                      </span>
+                    </span>
+                  </Link>
+                </div>
+                <div className={styles.desc}>
+                  <div className={styles.category}>Web development</div>
+                  <a
                     href="https://shoppingzone23.netlify.app"
                     className={styles.name}
                     target="_blank"
@@ -81,7 +114,7 @@ function Portfolio() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className={styles.boxCol} id={styles.item3}>
               <div className={styles.boxItem}>
                 <div className={styles.image}>

@@ -4,7 +4,7 @@ import logo from "./logo.png";
 import { FcDownload } from "react-icons/fc";
 import { Link } from "react-scroll";
 import myResume from "./myResume.pdf";
-import { FaSun, FaRegMoon } from 'react-icons/fa';
+import { FaSun, FaRegMoon } from "react-icons/fa";
 
 function Header() {
   const [sideBar, setSideBar] = useState(false);
@@ -90,7 +90,9 @@ function Header() {
                 CONTACT
               </Link>
             </li>
-            <button className="theme-button" onClick={changeThemeHandler}>{theme === "light-theme" ? <FaSun /> : <FaRegMoon />}</button>
+            <button className="theme-button" onClick={changeThemeHandler}>
+              {theme === "light-theme" ? <FaSun /> : <FaRegMoon />}
+            </button>
           </ul>
         </div>
       </div>
@@ -168,7 +170,9 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <button className="theme-button" onClick={changeThemeHandler}>{theme === "light-theme" ? <FaSun /> : <FaRegMoon />}</button>
+                <button className="theme-button" onClick={changeThemeHandler}>
+                  {theme === "light-theme" ? <FaSun /> : <FaRegMoon />}
+                </button>
               </li>
             </ul>
           </div>

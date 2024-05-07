@@ -16,7 +16,7 @@ function Skills() {
           <ul>
             <li>
               <div className={styles.name}>
-                <span>HTML</span>
+                <span>HTML5/CSS3</span>
               </div>
               <div className={styles.singlePostText}>
                 <div></div>
@@ -31,7 +31,7 @@ function Skills() {
             </li>
             <li>
               <div className={styles.name}>
-                <span>CSS</span>
+                <span>Tailwind CSS</span>
               </div>
               <div className={styles.singlePostText}>
                 <div></div>
@@ -46,6 +46,21 @@ function Skills() {
             </li>
             <li>
               <div className={styles.name}>
+                <span>Sass/Less</span>
+              </div>
+              <div className={styles.singlePostText}>
+                <div></div>
+              </div>
+              <div className={styles.progress}>
+                <div className={styles.percentage} style={{ width: "65%" }}>
+                  <span className={styles.percent}>
+                    <span>65%</span>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className={styles.name}>
                 <span>Javascript</span>
               </div>
               <div className={styles.singlePostText}>
@@ -54,7 +69,7 @@ function Skills() {
               <div className={styles.progress}>
                 <div className={styles.percentage} style={{ width: "75%" }}>
                   <span className={styles.percent}>
-                    <span>75%</span>
+                    <span>85%</span>
                   </span>
                 </div>
               </div>
@@ -84,14 +99,14 @@ function Skills() {
               <div className={styles.progress}>
                 <div className={styles.percentage} style={{ width: "70%" }}>
                   <span className={styles.percent}>
-                    <span>70%</span>
+                    <span>87%</span>
                   </span>
                 </div>
               </div>
             </li>
             <li>
               <div className={styles.name}>
-                <span>MongoDb</span>
+                <span>NextJS</span>
               </div>
               <div className={styles.singlePostText}>
                 <div></div>
@@ -115,21 +130,6 @@ function Skills() {
                 <div className={styles.percentage} style={{ width: "60%" }}>
                   <span className={styles.percent}>
                     <span>60%</span>
-                  </span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className={styles.name}>
-                <span>Express</span>
-              </div>
-              <div className={styles.singlePostText}>
-                <div></div>
-              </div>
-              <div className={styles.progress}>
-                <div className={styles.percentage} style={{ width: "65%" }}>
-                  <span className={styles.percent}>
-                    <span>65%</span>
                   </span>
                 </div>
               </div>
